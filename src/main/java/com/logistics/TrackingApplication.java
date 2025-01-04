@@ -1,13 +1,11 @@
-package com.example.helloworld;
+package com.logistics;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloWorldApplication {
-
+public class TrackingApplication {
     public static void main(String[] args) {
-        SpringApplication.run(HelloWorldApplication.class, args);
+        SpringApplication.run(TrackingApplication.class, args);
     }
-
 }

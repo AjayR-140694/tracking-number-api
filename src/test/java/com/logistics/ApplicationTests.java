@@ -1,6 +1,6 @@
-package com.example.helloworld;
+package com.logistics;
 
-import com.example.helloworld.controller.HelloWorldController;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,15 +9,15 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 
 @SpringBootTest
-class HelloWorldApplicationTests {
+class TrackingApplicationTests {
 
     @Autowired
-    private HelloWorldController helloWorldController;
+    private TrackingApplication trackingApplication;
 
     @Test
     void contextLoads() {
         // to ensure that controller is getting created inside the application context
-        assertNotNull(helloWorldController);
+        assertNotNull(trackingApplication);
     }
 
 }
